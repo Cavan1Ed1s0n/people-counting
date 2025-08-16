@@ -11,12 +11,8 @@ Detects people in uploaded images, draws boxes, stores results, and provides a p
 
 ## Run
 
-```bash
-docker compose up --build
 
-## How to use
-
-1) Clone your repo and drop these files in place (exact structure above).  
-2) Run `docker compose up --build`.  
-3) Visit `http://localhost:3000` to upload an image; results appear with bounding boxes + count.  
-4) Visit `http://localhost:3000/history` to browse/search/filter past records (pagination included).  
+1. Clone repo and drop these files in place (exact structure above).  
+2. Run `docker-compose up -d`.  
+3. Visit `http://localhost:3000` to upload an image; results appear with bounding boxes + count.  
+4. Visit `http://localhost:3000/history` to browse/search/filter past records (pagination included).  
