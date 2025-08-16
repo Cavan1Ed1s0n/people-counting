@@ -1,0 +1,10 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.1
+pydantic-settings
+python-multipart==0.0.9
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+opencv-python-headless==4.9.0.80
+ultralytics
+

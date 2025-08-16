@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.cache/
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log*
+
+
+# Docker
+.env
+.env.local
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.DS_Store
+
+# Models
+*.pt
+*.pth
+
+# Images
+backend/app/static/images/
+*.jpg
+*.png
+*.webp
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+backend/static/
+
+# Docker
+*.dockerignore
