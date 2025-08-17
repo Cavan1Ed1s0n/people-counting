@@ -1,0 +1,25 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  # Scrape Prometheus itself
+  - job_name: prometheus
+    static_configs:
+      - targets: ["prometheus:9090"]
+
+  # Scrape backend API (if it exposes /metrics with Prometheus client)
+  - job_name: backend
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["backend:8008"]
+
+  # Scrape frontend (if you add custom metrics)
+  - job_name: frontend
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["frontend:3000"]
+
+  # Scrape Docker container metrics (via cadvisor)
+  - job_name: cadvisor
+    static_configs:
+      - targets: ["cadvisor:8080"]
