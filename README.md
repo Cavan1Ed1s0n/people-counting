@@ -2,6 +2,8 @@
 
 Detects people in uploaded images, draws boxes, stores results, and provides a paginated/searchable history UI.
 
+![System architecture](assets/people-counting.svg)
+
 ## Stack
 - Backend: FastAPI, SQLAlchemy, Pydantic
 - Frontend: Next.js (App Router)
