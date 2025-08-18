@@ -24,7 +24,7 @@ pnpm-debug.log*
 **/.mypy_cache/
 **/.ruff_cache/
 **/.DS_Store
-
+*.dockerignore
 # Models
 *.pt
 *.pth
@@ -43,5 +43,7 @@ backend/app/static/images/
 *.log
 backend/static/
 
-# Docker
-*.dockerignore
+
+
+# Cert
+certbot/conf/

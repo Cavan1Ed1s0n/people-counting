@@ -7,4 +7,6 @@ SQLAlchemy==2.0.30
 psycopg2-binary==2.9.9
 opencv-python-headless==4.9.0.80
 ultralytics
-
+pytest
+pytest-asyncio
+httpx
